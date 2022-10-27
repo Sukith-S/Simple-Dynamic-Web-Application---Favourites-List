@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <head>
+        <link rel="stylesheet" href="pet.css">
+        <script src="pet.js"></script>
+        <title>Favourites List</title>
+    </head>
+    <body id="top">
+        <div class="head1">
+    <div id="navbar">
+                <label id="logo" ><script>document.getElementById('logo').innerHTML='Hello '+localStorage.getItem('uname')+' !'</script></label>
+                <div id="navbar-right">
+                    <a href="#top">Pet</a>
+                    <a href="#foodClass">Food</a>
+                    <a href="#hobbyClass">Hobby</a>
+                    <a href="#" style="width:40px ;"></a>
+                </div>
+            </div>
+        </div>
+        <div class="petClass" id="petClass"><br>  
+            <p>Select Your Pet<p>
+            <div class="l"></div>
+            <select id="pet" onchange="javascript:changeImagePet()">
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="hen">Hen</option>
+                <option value="duck">Duck</option>
+                <option value="lizard">Lizard</option>
+                <option value="snake">Snake</option>
+            </select>
+            <div class="r"></div>
+            <div class="image">
+                <img id="image" src="pet/dog.jpg"> 
+            </div>
+        </div>
+        <div class="foodClass" id="foodClass">
+            <br>    
+            <p>Select Your Food<p>
+            <div class="l"></div>
+                <select id="food" onchange="javascript:changeImageFood()">
+                    <option value="north">North Indian</option>
+                    <option value="south">South Indian</option>
+                    <option value="chinese">Chinese</option>
+                </select>
+            <div class="r"></div>
+                <div class="image">
+                    <img id="imagef" src="food/north.jpg"> 
+                </div>
+            </div>
+        </div>
+        <div class="hobbyClass" id="hobbyClass"><br>
+            <p>Select Your Hobby<p>
+            <div class="l"></div>
+                <select id="hobby" onchange="javascript:changeImageHobby()">
+                    <option value="music">Listening Music</option>
+                    <option value="cycle">Cycling</option>
+                    <option value="swim">Swimming</option>
+                    <option value="games">Playing Games</option>
+                </select>
+            <div class="r"></div>
+                <div class="image">
+                    <img id="imageh" src="hobby/music.jpg"> 
+                </div>
+            </div>
+        </div><br><br><br><br>
+        <footer>
+            <br>
+            <a href="../final/final.html">SUBMIT</a>
+        </footer>
+    </body>
+</html>

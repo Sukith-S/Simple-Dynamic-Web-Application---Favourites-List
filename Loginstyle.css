@@ -1,0 +1,83 @@
+body {
+  background-color: #9f9da7;
+  font-size: 1.6rem;
+  font-family:'Courier New', Courier, monospace;
+  color: #2b3e51;
+}
+
+h2 {
+  font-weight: 300;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+p {
+  position: relative;
+}
+
+#login-form-wrap {
+  background-color: #fff;
+  width: 35%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 20px 0 0 0;
+  border-radius: 4px;
+  box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+}
+
+#login-form {
+  padding: 0 60px;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 4px;
+}
+
+input[type="text"]{
+  width: 100%;
+  padding: 0 0 0 10px;
+  margin: 0;
+  color: #8a8b8e;
+  border: 1px solid #c2c0ca;
+  font-style: normal;
+  font-size: 16px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  position: relative;
+  display: inline-block;
+  background: none;
+}
+
+
+
+
+
+
+input[type="submit"] {
+  border: none;
+  display: block;
+  background-color: #2c3236;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  font-size: 18px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+input[type="submit"]:hover {
+  background-color: #5c6367;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
